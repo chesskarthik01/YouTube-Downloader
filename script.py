@@ -7,11 +7,11 @@ import _winapi
 ctypes.windll.kernel32.SetStdHandle(_winapi.STD_INPUT_HANDLE, 0)
 
 root = Tk()
-root.title("Youtube Downloader")
+root.title("YouTube Downloader")
 root.iconbitmap("logo.ico")
 
 toplabel = Label(
-    root, text="Enter the Youtube URL you'd like to download and choose a file format to save it")
+    root, text="Enter the YouTube URL you'd like to download and choose a file format to save it")
 toplabel.grid(row=0, column=0, columnspan=2)
 
 e = Entry(root, width=100)
